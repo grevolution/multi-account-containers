@@ -1,0 +1,29 @@
+body {
+  background: #fff;
+  color: #202023;
+}
+
+p, label {
+  color: rgb(177, 177, 179);
+}
+
+h3 {
+  margin-block-start: 2.5rem;
+}
+
+h3:first-of-type {
+  margin-block-start: 1rem;
+}
+
+/* @media (prefers-color-scheme: light) {
+  body {
+    background: pink;
+  }
+} */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #202023;
+    color: #fff;
+  }
+}
